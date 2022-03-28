@@ -1,0 +1,11 @@
+
+    cybertek packget in altinda pages packget olusturduk.
+    Bunun icinde LoginPage diye class olusturduk.
+    Bu klass da PageFactory diye bir class kullandik. Bu objekteleri initile etmemizi sagliyor.
+    Bu class bize @FindBy diye bir annotation kullanma firsati veriyor.
+
+
+    * How you convert a class to PageObjectModel class is :
+            I am gona creat one public constructor
+            I will use the PageFactory class thats coming from Selenium
+            And there is an .initElements() method that initilize elements.

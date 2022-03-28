@@ -1,0 +1,13 @@
+WebTables
+
+In Html tables are represented with <table> tag
+Tables are made of <thead> and <tbody>
+
+<thead>  this is the table haeader, here we have table colm names
+    <tbody> where the data is
+        <tr> table row
+            <td> table data
+
+
+** bu derste .maximise .timeouts lari beforeMethod a koydu.
+

@@ -1,0 +1,10 @@
+
+
+    How to lock, how to creat a report ...
+    We write a code one time .. Not creat everytime.    JUST UNDERSTAND THE STRUCTURE
+
+    extendLogger.pass  ---> assertion dan sonra gelmek zorunda.
+
+    We have updated AfterMethod
+
+    We have passed an object from ITestResult class, -- we can use this object in aftermethod

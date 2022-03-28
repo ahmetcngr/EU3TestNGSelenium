@@ -1,0 +1,47 @@
+WAITS
+
+Thread.sleep   -- this method is from JAva. Not selenium. It pauses the execution.
+
+Be careful to use too long or less. It is recommended to minimiye the usage.
+
+Impiicitly Wait
+driver.manage.timeouts.implicitlywait(29, timeunit.SECONDS)
+
+this is wait come from Selenium
+
+Implicitly Wait only waits until the element located.
+
+Implicitly Wait is set once.
+
+As long as findElement method finds the webelement on the HTML, it does not care is it interractable, visible or not.
+IT will return the element.
+
+-------
+Explicitly Wait
+    Sometimes we might locate the element but no interract. Than we have to wait until it visible, clickable..
+    When we have to wait, first create the object pass parameters.
+    WebDriverWait wait = new WebDriverWait(driver,       10);
+
+
+   ---------------
+
+   1. Thread.sleep
+        Use whenever u want.
+        wait for whole duration, not dynamic
+
+   2. Implicity Wait
+        call it once, set of driver
+        wairs while trying ti findElemnt
+        wait until element found or time runs - dynamic
+        applies for all findElement methods
+
+    3. Explicity Wait
+        call everytime you need
+        wait until the condition is met or time runs out - dynamic
+        waits for different conditions (interactible, visible, invisible, text, clickable etc..)
+
+
+        ---------
+        hw12 locator
+                click on "status Codes"   by.cssSelector [href='/statuts_codes']
+

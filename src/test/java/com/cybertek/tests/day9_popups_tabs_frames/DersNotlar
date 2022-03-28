@@ -1,0 +1,30 @@
+Aq burada not alabiliyormusuz lan.
+
+
+Iframes :
+Bu zamana kadar hep tek html li sayfalari görmüstük. Ama burda 2 tane HTML var.
+Iframe let you devide your page.
+A web page hase a video player. Its possible with iframes.
+Selenium can see only 1 html. We have to pick a html first.
+We have to switch first.
+There are 3 switching ways to iframes.
+frame or iframe ... same
+driver.switchto.frame.
+
+selenium can take care of only one HTML at the same time.
+So if we switch to Baby HTML, then we need to switch back
+
+In HTML we can have one html page inside to another. This is made possible by tag <iframe> or <frame>.
+Using frames we can put html inside html. When we have page with frames, selenium can not control what inside the frame.
+We have to switch iframe first.
+When we switch to iframe it will not see the default page. Thats why we need to switch back to defaultcontent back.
+
+
+------ multiple flames - nasted flames
+
+HTML (Default content)
+    frame-top  (parent frame)
+        0 left
+        1 middle
+        2 right
+    frame-bottom

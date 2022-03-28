@@ -1,0 +1,20 @@
+
+
+TestBase VS BasePage
+
+    TestBase
+    we collected whatever common to all testcases here.
+    Like before and after method we created all the necessary object like driver, action,wait etc. and also reporting setup.
+    So we dont need to copy/paste anymore. when we create the test we extend TestBase
+
+    BasePage
+    we locate all the common elements and functionalites for all the pages/modules here related to applicaition(vytrack).
+    All other pages that have those functionlites will extend the BasePage.
+    it is application specific.
+
+   =========================================================
+
+   XML RUNNERS
+
+   what is xml files?
+    File type used to store and transfer
